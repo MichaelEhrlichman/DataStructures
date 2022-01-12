@@ -30,8 +30,8 @@ class MinHeap():
         while i > 0 and \
                         ( self.data[self.parent(i)][0] > self.data[i][0] or \
                           ( self.data[self.parent(i)][0] == self.data[i][0] and self.data[self.parent(i)][1] > self.data[i][1] ) ):
-            self.data[i], self.data[parent(i)] = self.data[parent(i)], self.data[i]
-            i = parent(i)
+            self.data[i], self.data[self.parent(i)] = self.data[self.parent(i)], self.data[i]
+            i = self.parent(i)
 
     def sift_down(self,i):  # min-heap sift down
         minix = i
