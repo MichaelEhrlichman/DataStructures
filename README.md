@@ -27,3 +27,4 @@ Week 4
 2. [Check if given tree meets binary search tree condition](SearchTreeProperty)
 3. [Check if given tree meets binary search tree condition, allowing for equal keys](SearchTreePropertyHard)
 4. [Implement an integer splay tree that supports add, del, find, and sum over range](SetRangeSum)
+5. - To facilitate debugging, includes basic tree visualization using graphics.py
